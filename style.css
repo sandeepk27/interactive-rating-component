@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;700&display=swap');
+:root {
+    --orange: rgb(251 155 18);
+    --white: rgb(255 255 255);
+    --LightGrey: hsl(217, 12%, 63%);
+    --DarkGrey: rgb(123 134 151);
+    --DarkBlue: rgb(37 45 54);
+    --VeryDarkBlue: rgb(17 19 22);
+    --font: 'Overpass Mono', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--VeryDarkBlue);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--DarkBlue);
+}
+
+.onClick-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--DarkBlue);
+}
+
+.star {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.star-icon {
+    padding: 8px;
+    border-radius: 50%;
+    background-color: var(--MediumGray);
+}
+
+.txt h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.txt p {
+    margin-bottom: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.rating {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.rate-btn {
+    border-radius: 55%;
+    padding: 10px 15px;
+    margin-right: 20px;
+    background-color: var(--MediumGray);
+}
+
+.rate-btn:hover {
+    border-radius: 55%;
+    padding: 10px 15px;
+    margin-right: 20px;
+    background-color: var(--orange);
+}
+
+.button {
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+    padding: 9px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 700;
+}
+
+.btn:hover {
+    width: 100%;
+    padding: 9px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    background-color: var(--white);
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.onClick-container {
+    display: none;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--DarkBlue);
+}
+
+footer {
+    margin-top: 5px;
+    color: hsl(217, 12%, 63%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

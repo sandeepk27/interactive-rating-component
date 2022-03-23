@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="star">
+            <img class="star-icon" src="images/icon-star.svg" alt="est">
+        </div>
+
+        <div class="txt">
+            <h2>How did we do?</h2>
+            <p>Let us know how we did your support request. All feedback is appreciated to help us improve our offering!</p>
+        </div>
+
+        <div class="rating">
+            <span class="rate-btn one" id="one" onclick="rateBtn()">1</span>
+            <span class="rate-btn two" id="two" onclick="rateBtn()">2</span>
+            <span class="rate-btn three" id="three" onclick="rateBtn()">3</span>
+            <span class="rate-btn four" id="four" onclick="rateBtn()">4</span>
+            <span class="rate-btn five" id="five" onclick="rateBtn()">5</span>
+        </div>
+
+        <div class="btn">Submit</div>
+
+    </div>
+
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Sandeep <a href="#">Your Name Here</a>.
+    </footer>
+
+
+
+    <div class="onClick-container" id="onClick-container">
+        <div class="star">
+            <img src="images/illustration-thank-you.svg" alt="loading">
+        </div>
+        <div class="txt">
+            <p class="result">You selected <span id="result-no"></span> out of 5
+            </p>
+            <h2>Thank you!</h2>
+            We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+        </div>
+        <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Sandeep <a href="#">Ivo Netto</a>.
+        </footer>
+
+    </div>
+    <script src="index.js"></script>
+    <div class="onClick-container" id="onClick-container">
+        <div class="star">
+            <img src="images/illustration-thank-you.svg" alt="loading">
+        </div>
+        <div class="txt">
+            <p class="result">You selected <span id="result-no"></span> out of 5
+            </p>
+            <h2>Thank you!</h2>
+            We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+        </div>
+        <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Sandeep <a href="#">Ivo Netto</a>.
+        </footer>
+    </div>
+</body>
+
+</html>
